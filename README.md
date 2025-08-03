@@ -10,13 +10,34 @@ npm install --save-dev @vitalyostanin/eslint-prefer-de-morgan-law
 
 ## Usage
 
-Add to your ESLint configuration:
+### Flat Config (ESLint 9+)
+
+```javascript
+import preferDeMorganLaw from '@vitalyostanin/eslint-prefer-de-morgan-law';
+
+export default [
+  {
+    plugins: {
+      'prefer-de-morgan-law': {
+        rules: {
+          'prefer-de-morgan-law': preferDeMorganLaw,
+        },
+      },
+    },
+    rules: {
+      'prefer-de-morgan-law/prefer-de-morgan-law': 'error',
+    },
+  },
+];
+```
+
+### Legacy Config
 
 ```json
 {
   "plugins": ["@vitalyostanin/eslint-prefer-de-morgan-law"],
   "rules": {
-    "@vitalyostanin/prefer-de-morgan-law": "warn"
+    "@vitalyostanin/eslint-prefer-de-morgan-law/prefer-de-morgan-law": "error"
   }
 }
 ```
