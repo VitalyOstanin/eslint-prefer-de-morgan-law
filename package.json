@@ -1,6 +1,6 @@
 {
   "name": "@vitalyostanin/eslint-prefer-de-morgan-law",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/VitalyOstanin/eslint-prefer-de-morgan-law.git"
