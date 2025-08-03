@@ -1,0 +1,25 @@
+{
+  "name": "@vitalyostanin/eslint-prefer-de-morgan-law",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VitalyOstanin/eslint-prefer-de-morgan-law.git"
+  },
+  "homepage": "https://github.com/VitalyOstanin/eslint-prefer-de-morgan-law#readme",
+  "description": "ESLint rule for applying De Morgan's law to improve code readability",
+  "main": "lib/prefer-de-morgan-law.js",
+  "keywords": ["eslint", "eslint-plugin", "de-morgan"],
+  "author": "Vitaly Ostanin",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=7.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  }
+}

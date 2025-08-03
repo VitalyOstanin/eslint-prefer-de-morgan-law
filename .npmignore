@@ -1,0 +1,10 @@
+test/
+coverage/
+.eslintrc
+.gitignore
+.travis.yml
+.nvmrc
+.github/
+.nyc_output/
+.cache/
+*.test.js
